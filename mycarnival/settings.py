@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'carnivalmanagement',
     'rest_framework',
     'corsheaders',
+    'api,'
 ]
 
 MIDDLEWARE = [
