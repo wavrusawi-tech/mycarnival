@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const WelcomePage = () => {
   return (
@@ -14,12 +15,18 @@ const WelcomePage = () => {
         <p className="text-gray-600 mb-6">Before we get started, please choose your role:</p>
         
         <div className="flex gap-4">
-          <button className="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded transition-colors">
-            Carnival Organizer
-          </button>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition-colors">
-            Attendee
-          </button>
+            <Link 
+      to="/organizer-carnival-selection" 
+      className="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded"
+    >
+      Carnival Organizer
+    </Link>
+          <Link 
+      to="/attendee-carnival-selection" 
+      className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+    >
+      Attendee
+    </Link>
         </div>
       </main>
     </div>
