@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import WelcomePage from './pages/WelcomePage.jsx'
 import OrganizerCarnivalSelect from './pages/OrganizerCarnivalSelect.jsx'
+import AttendeeCarnivalSelect from './pages/AttendeeCarnivalSelect.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
